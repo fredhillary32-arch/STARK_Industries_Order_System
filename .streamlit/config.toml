@@ -1,0 +1,3 @@
+# Hides Streamlit's own "Deploy" button and developer menu. This app only runs on this computer.
+[client]
+toolbarMode = "minimal"

@@ -1,0 +1,29 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+# Test and coverage caches
+.pytest_cache/
+.coverage
+htmlcov/
+# Local secrets and environment settings
+.env
+.env.*
+!.env.example
+# Private source files and local workbook data
+data/original/
+data/stark_orders_clean.xlsx
+data/*.xlsx
+data/**/*.xlsx
+!data/stark_orders_demo.xlsx
+# Generated logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+tests/test_report.md
